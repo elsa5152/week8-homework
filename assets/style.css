@@ -1,7 +1,7 @@
 html, body {
     height:100%;
   }
-
+ 
 .welcome {
     background: black;
     color: white;
@@ -12,10 +12,18 @@ html, body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+    
+}
+h1 {
+    font-family: fantasy;
+    font-size: xxx-large;
 }
 
 p {
     text-align: center;
+    font-family: unset;
+    font-size: large;
+    
 }
 
 footer {
@@ -38,15 +46,18 @@ video{
   }
   
 @media (min-aspect-ratio: 16/9) {
-  .videoBg{
+  .video{
     width: 100%;
     height: auto;
+    background: url("./video/welcome_video.mp4");
+  
   }
 }
 @media (max-aspect-ratio: 16/9) {
-  .videoBg {
+  .video {
     width: auto;
     height: 100%;
+    background: url("./video/welcome_video.mp4");
   }
 }
 

@@ -1,0 +1,31 @@
+html, body {
+    height:100%;
+  }
+ 
+.video_bg {
+
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+footer {
+    position: absolute;
+    padding: 3px 11px 25px 10px;
+    bottom: 0;
+    width: 93%;
+    height: 51px;
+    text-align: center;
+    color: #fff;
+}
+   
+   
+   
+   
