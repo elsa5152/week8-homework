@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Professional Portfolio</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="./assets/image/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!--link stylesheet-->
         <link rel="stylesheet" href="./assets/page.css">
-        <link rel="stylesheet" href="./assets/script.js">
+       
 
   </head>
 
@@ -24,6 +24,10 @@
       <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">Welcome to my WORLD</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
@@ -111,12 +115,12 @@
           </div>
           <!-- About Section Content-->
           <div class="row">
-              <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-              <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+              <div class="col-lg-4 ms-auto"><p class="lead">Wanna know more about me.</p></div>
+              <div class="col-lg-4 me-auto"><p class="lead">Here is the file about me.</p></div>
           </div>
           <!-- About Section Button-->
           <div class="text-center mt-4">
-              <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+              <a class="btn btn-xl btn-outline-light" href="./assets/file/sampe resume.pdf">
                   <i class="fas fa-download me-2"></i>
                   Free Download!
               </a>
@@ -137,14 +141,8 @@
           <!-- Contact Section Form-->
           <div class="row justify-content-center">
               <div class="col-lg-8 col-xl-7">
-                  <!-- * * * * * * * * * * * * * * *-->
-                  <!-- * * SB Forms Contact Form * *-->
-                  <!-- * * * * * * * * * * * * * * *-->
-                  <!-- This form is pre-integrated with SB Forms.-->
-                  <!-- To make this form functional, sign up at-->
-                  <!-- https://startbootstrap.com/solution/contact-forms-->
-                  <!-- to get an API token!-->
-                  <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                  <form id="contactForm" data-sb-form-api-token="62d903f4-a080-418f-9cf8-a0f678b62a17">
                       <!-- Name input-->
                       <div class="form-floating mb-3">
                           <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -177,9 +175,7 @@
                       <div class="d-none" id="submitSuccessMessage">
                           <div class="text-center mb-3">
                               <div class="fw-bolder">Form submission successful!</div>
-                              To activate this form, sign up at
-                              <br />
-                              <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+
                           </div>
                       </div>
                       <!-- Submit error message-->
@@ -194,6 +190,118 @@
           </div>
       </div>
   </section>
+
+  <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">GitHub Link</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="./assets/image/GitHub-Mark.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4"><a href="https://github.com/elsa5152/week8-homework.git">GitHub Portfolio</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Linked In</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="./assets/image/linkedinlogo.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4"><a href="https://www.linkedin.com/feed/">Linked In</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Student Work</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="./assets/image/studentwork.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4"><a href=" https://github.com/FryGit87/Project-1.git">Project 1 Carbon Emission calculator github</a>
+                                        <br />
+                                        <a href="https://frygit87.github.io/Project-1/">Project 1 Carbon Emission calculator deployed version</a>
+                                        <br/>
+                                        <img class="carbon" src="./assets/image/carbon .png" alt="day plan" width="200" height="400"/>
+                                        <br/>
+                                        <a href=" https://github.com/elsa5152/week5homework.git">Day Planner github</a>
+                                        <br />
+                                        <a href="https://elsa5152.github.io/week5homework/">Day Planner deployed version</a>
+                                        <br/>
+                                        <img class="carbon" src="./assets/image/day plan.png" alt="day plan" width="300" height="200"/>
+
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+
     <footer>
         <h3>
           Made with ❤️️ by Elsa
@@ -202,11 +310,9 @@
             <!-- Bootstrap core JS-->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
             <!-- Core theme JS-->
-            <script src="js/scripts.js"></script>
-            <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-            <!-- * *                               SB Forms JS                               * *-->
-            <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-            <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+            <script src="./assets/script.js"></script>
+            
             <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+            
   </body>
 </html>
